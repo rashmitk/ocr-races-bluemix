@@ -1,0 +1,8 @@
+---
+applications:
+- name: ocr-races-master
+  memory: 512M
+  host: ocr-races-master
+  domain: mybluemix.net
+  services:
+  - ocr-eureka
